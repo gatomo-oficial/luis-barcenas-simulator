@@ -8,7 +8,7 @@ Con Vulkan 1.3.206 y Systemd 251.7, este simulador cuántico consta de un disco 
 ## ¿Cómo funciona?
 Pulsa `Romper` para empezar a realizar labores de contabilidad opaca. Una vez finalizadas, revisa las estadísticas arriba a la derecha. Puedes volver a repetiarlas pulsando `Romper otro`.
 
-- **Simulador:** [Entrar]()
+- **Simulador:** [Entrar (netlify)](https://luisbarcenas.netlify.app/)
 - **Donativos:** [PayPal](https://paypal.me/gatomooficial)
 - **Disclaimer:** *Este programa no tiene ningún propósito, solo lo hice por diversión, no pretende hacer propaganda política ni ofender a nadie. Si no te gusta, no lo uses.*
 
