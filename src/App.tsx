@@ -40,7 +40,7 @@ const App = () => {
 			setBrokenDisk((d) => d + 1);
 			setAudiencia((a) => a + Math.floor(Math.random() * 10));
 		} else {
-			status == 'yes' && new Audio(randomAud()).play();
+			status === 'yes' && new Audio(randomAud()).play();
 		}
 	}, [status]);
 
