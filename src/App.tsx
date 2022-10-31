@@ -16,6 +16,8 @@ const getImage = (status: 'no' | 'yes' | 'broken') => {
 	}
 };
 
+const randomAud = () => require(`./assets/break${Math.floor(Math.random() * 6) + 1}.mp3`);
+
 const getMaxHits = () => {
 	const arr: number[] = [32, 16, 45, 23, 17, 8, 19, 31];
 	return arr[Math.floor(Math.random() * arr.length)];
@@ -34,8 +36,11 @@ const App = () => {
 
 	useEffect(() => {
 		if (status === 'broken') {
+			new Audio(require('./assets/broken.mp3')).play();
 			setBrokenDisk((d) => d + 1);
 			setAudiencia((a) => a + Math.floor(Math.random() * 10));
+		} else {
+			status == 'yes' && new Audio(randomAud()).play();
 		}
 	}, [status]);
 
